@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@import url('http://fonts.googleapis.com/css?family=Encode+sans+Expanded:wght@300&display=swap');
+
+.row 
+{
+ @apply flex flex-wrap px-4 py-8 items-center;
+}
+.btn 
+{
+ @apply px-4 py-2 w-full rounded-lg text-white bg-green-600 hover:bg-emerald-900 cursor-pointer;
+}
